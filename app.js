@@ -28,7 +28,7 @@ const errorHandlerMiddleware = require("./middleware/error-handler");
 //   })
 // );
 
-// app.use(express.json());
+app.use(express.json());
 
 // app.use(helmet());
 // app.use(cors());
